@@ -3,14 +3,13 @@ import book1 from '../../public/images/book1.jpg'
 
 function Book1() {
   return (
-    <div className='bg-gray-300 p-15 object-center text-left ml-10 mt-10 mb-20 pb-10 rounded-md shadow-2xl shadow-black'>
+    <div className='bg-transparent p-15 object-center text-left ml-10 mt-10 mb-20 pb-10 rounded-md shadow-2xl shadow-black '>
         <img 
             src= {book1}
             alt="twisted games" 
             className= ' border-3 '
             style={{
-                
-                borderRadius: '5px'
+              borderRadius: '5px'
             }}
                
         />
