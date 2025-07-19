@@ -37,6 +37,31 @@ function App() {
     { id: 13, component: <Book13 /> }
   ];
 
+  const [books, setBooks] = useState(initialBooks);
+
+  const addBook = (data) => {
+    const NewBook = () => (
+      <div className='bg-transparent p-15 object-center text-left ml-10 mt-10 mb-20 pb-10 rounded-md shadow-2xl shadow-black '>
+        <img
+          src={URL.createObjectURL(data.image)}
+          alt={data.name}
+          className=' border-3 '
+          style={{
+            borderRadius: '5px'
+          }}
+
+        />
+        <h3 className='mt-5'><span className='font-bold'>Name: </span> {data.name}</h3>
+        <p><span className='font-bold'>Description: </span>{data.description}</p>
+        <p><span className='font-bold'>Ratings: </span>⭐{data.ratings}<sub>5</sub></p>
+        <p><span className='font-bold '>Price:</span>KES {data.price}</p>
+      </div>
+    );
+
+    setBooks([...books, { id: Date.now(), component: <NewBook />}]);
+  };
+
+  
   
 
   return (
