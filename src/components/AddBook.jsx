@@ -1,7 +1,35 @@
 import React, { useState } from 'react'
 
-function AddBook() {
-   
+function AddBook({ onAdd }) {
+    const[formData, setFormData] = useState({
+        name: '',
+        description: '',
+        ratings: '',
+        price: '',
+        image: null
+    });
+
+    const handleChange = (e) => {
+        const { name, value, type, files } = e.target;
+        setFormData(prev => ({
+            ...prev,
+            [name]: type === 'file'? files[0] : value
+        }));
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        if(!formData.name.trim()) return;
+
+        onAdd(formData);
+        setFormData({
+            name: '',
+            description: '',
+            ratings: '',
+            price: '',
+            image: null
+        })
+    }
     return (
         <div>
 
