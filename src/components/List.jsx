@@ -2,20 +2,7 @@ import React, { Component } from 'react'
 
 
 function List({books, onDelete}) {
-    // const Items = [
-
-   
-    // ]
   return (
-    
-    // <div className='grid grid-cols-3'>
-    //     {Items.map(item => (
-    //       <div key={item.id}>
-    //         {item.component}
-    //       </div>
-    //     ))}
-    // </div>
-
     <div className='grid grid-cols-3 gap-6 mt-10'>
       {books.map(({id, component}) => (
         <div key={id} className='relative'>
