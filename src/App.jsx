@@ -61,7 +61,9 @@ function App() {
     setBooks([...books, { id: Date.now(), component: <NewBook />}]);
   };
 
-  
+  const deleteBook = (idToDelete) => {
+    setBooks(books.filter(book => book.id !== idToDelete));
+  };
   
 
   return (
