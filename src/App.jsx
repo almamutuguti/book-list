@@ -16,6 +16,7 @@ import Book10 from './components/Book10'
 import Book11 from './components/Book11'
 import Book12 from './components/Book12'
 import Book13 from './components/Book13'
+import Profile from '../public/images/profile.jpg'
 
 
 
@@ -68,7 +69,14 @@ function App() {
 
   return (
     <div className='p-6'>
-      <AddBook onAdd={addBook}/>
+      <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1'>
+        <img 
+          src={Profile} 
+          alt="profile" 
+          className='rounded-full w-100 h-100 object-cover ml-30 mt-20 lg:mx-auto md:mx-auto sm:mx-auto'
+          />
+        <AddBook onAdd={addBook}/>
+      </div>
       <List books={books} onDelete={deleteBook}/>
     </div>
   )

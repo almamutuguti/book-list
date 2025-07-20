@@ -3,7 +3,7 @@ import book9 from '../../public/images/book9.jpg'
 
 function Book9() {
   return (
-    <div className='bg-gray-300 p-15 object-center text-left ml-10 mt-10 mb-20 pb-10 rounded-md shadow-2xl shadow-black'>
+    <div className='bg-transparent p-15 object-center text-left ml-10 mt-10 mb-20 pb-10 rounded-md shadow-2xl shadow-black'>
         <img 
             src= {book9}
             alt="twisted games" 
