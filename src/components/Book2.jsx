@@ -6,7 +6,7 @@ function Book2() {
     <div className='bg-transparent p-15 object-center text-left ml-10 mt-10 mb-20 pb-10 rounded-md shadow-2xl shadow-black'>
             <img 
                 src= {book2}
-                alt="twisted games" 
+                alt="twisted lies" 
                 className= ' border-3 '
                 style={{
                     
@@ -14,11 +14,10 @@ function Book2() {
                 }}
                    
             />
-            <h3 className='mt-5'><span className='font-bold'>Name: </span> Twisted Games</h3>
-            <p><span className='font-bold'>Description: </span>A grumpy Sunshine romance between Ava and her overprotective brother's bestfriend
-            ,Alex.Full of emotional trauma secrets and steamy tension</p>
-            <p><span className='font-bold'>Ratings: </span>⭐4.1/<sub>5</sub></p>
-            <p><span className='font-bold '>Price:</span>KES 1300</p>
+            <h3 className='mt-5'><span className='font-bold'>Name: </span> Twisted Lies</h3>
+            <p><span className='font-bold'>Description: </span>A brooding billionaire with a dark past and an online influencer haunted by secrets forge a fake relationship that quickly blurs into something dangerously real.</p>
+            <p><span className='font-bold'>Ratings⭐: </span>4.3</p>
+            <p><span className='font-bold '>Price:</span>KES 700</p>
         </div>
   )
 }

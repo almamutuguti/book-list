@@ -16,7 +16,7 @@ function Book1() {
         <h3 className='mt-5'><span className='font-bold'>Name: </span> Twisted Games</h3>
         <p><span className='font-bold'>Description: </span>A grumpy Sunshine romance between Ava and her overprotective brother's bestfriend
         ,Alex.Full of emotional trauma secrets and steamy tension</p>
-        <p><span className='font-bold'>Ratings: </span>⭐4.1/<sub>5</sub></p>
+        <p><span className='font-bold'>Ratings⭐: </span>4.1</p>
         <p><span className='font-bold '>Price:</span>KES 1300</p>
     </div>
   )

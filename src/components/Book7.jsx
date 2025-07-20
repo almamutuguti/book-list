@@ -6,7 +6,7 @@ function Book7() {
     <div className='bg-transparent p-15 object-center text-left ml-10 mt-10 mb-20 pb-10  rounded-md shadow-2xl shadow-black'>
         <img 
             src= {book7}
-            alt="twisted games" 
+            alt="ugly love" 
             className= ' border-3 '
             style={{
                 
@@ -14,10 +14,9 @@ function Book7() {
             }}
                
         />
-        <h3 className='mt-5'><span className='font-bold'>Name: </span> Twisted Games</h3>
-        <p><span className='font-bold'>Description: </span>A grumpy Sunshine romance between Ava and her overprotective brother's bestfriend
-        ,Alex.Full of emotional trauma secrets and steamy tension</p>
-        <p><span className='font-bold'>Ratings: </span>⭐4.1/<sub>5</sub></p>
+        <h3 className='mt-5'><span className='font-bold'>Name: </span>Ugly Love</h3>
+        <p><span className='font-bold'>Description: </span>A guarded pilot and a nursing student agree to a no-strings fling—but buried trauma and growing feelings make love anything but simple.</p>
+        <p><span className='font-bold'>Ratings⭐: </span>4.6</p>
         <p><span className='font-bold '>Price:</span>KES 1300</p>
     </div>
   )

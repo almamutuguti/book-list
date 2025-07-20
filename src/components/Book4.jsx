@@ -14,10 +14,9 @@ function Book4() {
             }}
                
         />
-        <h3 className='mt-5'><span className='font-bold'>Name: </span> Twisted Games</h3>
-        <p><span className='font-bold'>Description: </span>A grumpy Sunshine romance between Ava and her overprotective brother's bestfriend
-        ,Alex.Full of emotional trauma secrets and steamy tension</p>
-        <p><span className='font-bold'>Ratings: </span>⭐4.1/<sub>5</sub></p>
+        <h3 className='mt-5'><span className='font-bold'>Name: </span> Twisted Hate</h3>
+        <p><span className='font-bold'>Description: </span>A fiery law student and a cocky doctor clash in a steamy enemies-to-lovers romance. Jules Ambrose and Josh Chen can't stand each other—until one explosive night leads to a no-strings-attached arrangement that spirals into something deeper.</p>
+        <p><span className='font-bold'>Ratings⭐: </span>4.3</p>
         <p><span className='font-bold '>Price:</span>KES 1300</p>
     </div>
   )

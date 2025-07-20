@@ -6,7 +6,7 @@ function Book6() {
     <div className='bg-transparent p-15 object-center text-left ml-10 mt-10 mb-20 pb-10 rounded-md shadow-2xl shadow-black'>
         <img 
             src= {book6}
-            alt="twisted games" 
+            alt="its starts with us" 
             className= ' border-3 '
             style={{
                 
@@ -14,11 +14,10 @@ function Book6() {
             }}
                
         />
-        <h3 className='mt-5'><span className='font-bold'>Name: </span> Twisted Games</h3>
-        <p><span className='font-bold'>Description: </span>A grumpy Sunshine romance between Ava and her overprotective brother's bestfriend
-        ,Alex.Full of emotional trauma secrets and steamy tension</p>
-        <p><span className='font-bold'>Ratings: </span>⭐4.1/<sub>5</sub></p>
-        <p><span className='font-bold '>Price:</span>KES 1300</p>
+        <h3 className='mt-5'><span className='font-bold'>Name: </span> It Starts With Us</h3>
+        <p><span className='font-bold'>Description: </span>Lily reunites with her first love, Atlas, and tries to build a future with him—while navigating co-parenting with her abusive ex-husband.</p>
+        <p><span className='font-bold'>Ratings⭐: </span>4.5</p>
+        <p><span className='font-bold '>Price:</span>KES 1235</p>
     </div>
   )
 }

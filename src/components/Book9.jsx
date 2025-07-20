@@ -6,7 +6,7 @@ function Book9() {
     <div className='bg-transparent p-15 object-center text-left ml-10 mt-10 mb-20 pb-10 rounded-md shadow-2xl shadow-black'>
         <img 
             src= {book9}
-            alt="twisted games" 
+            alt="november 9" 
             className= ' border-3 '
             style={{
                 
@@ -14,11 +14,10 @@ function Book9() {
             }}
                
         />
-        <h3 className='mt-5'><span className='font-bold'>Name: </span> Twisted Games</h3>
-        <p><span className='font-bold'>Description: </span>A grumpy Sunshine romance between Ava and her overprotective brother's bestfriend
-        ,Alex.Full of emotional trauma secrets and steamy tension</p>
-        <p><span className='font-bold'>Ratings: </span>⭐4.1/<sub>5</sub></p>
-        <p><span className='font-bold '>Price:</span>KES 1300</p>
+        <h3 className='mt-5'><span className='font-bold'>Name: </span> November 9</h3>
+        <p><span className='font-bold'>Description: </span>Two strangers agree to meet once a year on November 9—but secrets and heartbreak threaten to unravel their love story.</p>
+        <p><span className='font-bold'>Ratings⭐: </span>4.6</p>
+        <p><span className='font-bold '>Price:</span>KES 1600</p>
     </div>
   )
 }

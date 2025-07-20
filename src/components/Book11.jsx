@@ -14,11 +14,10 @@ function Book11() {
             }}
                
         />
-        <h3 className='mt-5'><span className='font-bold'>Name: </span> Twisted Games</h3>
-        <p><span className='font-bold'>Description: </span>A grumpy Sunshine romance between Ava and her overprotective brother's bestfriend
-        ,Alex.Full of emotional trauma secrets and steamy tension</p>
-        <p><span className='font-bold'>Ratings: </span>⭐4.1/<sub>5</sub></p>
-        <p><span className='font-bold '>Price:</span>KES 1300</p>
+        <h3 className='mt-5'><span className='font-bold'>Name: </span> Binding 13</h3>
+        <p><span className='font-bold'>Description: </span>A shy girl with a traumatic past and a rugby star with hidden pain form a fragile bond at an elite Irish school—where love, healing, and heartbreak collide.</p>
+        <p><span className='font-bold'>Ratings⭐: </span>4.4</p>
+        <p><span className='font-bold '>Price:</span>KES 1500</p>
     </div>
   )
 }
